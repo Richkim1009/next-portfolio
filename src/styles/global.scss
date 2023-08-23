@@ -1,0 +1,26 @@
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    
+    &.visible {
+        opacity: 1;
+    }
+}
+
+html, body, #__next {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+main {
+    div {
+        background-color: #ffffff;
+        width: 100%;
+        min-height: 64px;
+    }
+}
+
+header {
+    background-color: #f5f5f5;
+}
