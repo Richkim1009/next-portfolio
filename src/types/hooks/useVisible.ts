@@ -1,0 +1,1 @@
+export type UseVisibleReturn = [boolean, React.RefObject<HTMLDivElement>];
