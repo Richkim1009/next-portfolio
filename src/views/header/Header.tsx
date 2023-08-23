@@ -3,7 +3,7 @@ import HeaderButton from "./HeaderButton";
 import HeaderIconButton from "./HeaderIconButton";
 
 export default function Header() {
-    const HeaderSubjects = ['INTRO', 'EXPERIENCE', 'PROJECTS', 'SKILLS', 'CERTIFICATE', 'RETROSPECITVE']
+    const HeaderSubjects = ['INTRO', 'EXPERIENCE', 'PROJECTS', 'SKILLS', 'RETROSPECITVE', 'CONTACTx x']
 
     return (
         <header style={{ position: 'sticky' }}>

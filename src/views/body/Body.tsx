@@ -3,6 +3,8 @@ import Intro from "./Intro";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Retrospective from "./Retrospective";
+import Contact from "./Contact";
 
 export default function Body() {
   return (
@@ -11,6 +13,8 @@ export default function Body() {
       <Experience />
       <Projects />
       <Skills />
+      <Retrospective />
+      <Contact />
     </Stack>
   )
 }
